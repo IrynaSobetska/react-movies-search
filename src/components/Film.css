@@ -1,0 +1,55 @@
+.film-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background: #6c7c80;
+  width: 30vh;
+  padding: 25px;
+  border-style: solid;
+  border-color: #2c343a;
+  border-radius: 10px;
+  margin: 23px;
+
+  box-shadow: 20px 20px #2c343a;
+}
+
+.film-container:hover {
+  background: #8d9ca0;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  margin: 10px;
+}
+
+.like {
+  color: #ff0000c2;
+}
+
+button {
+  border: none;
+  background: #6c7c8000;
+}
+
+.no {
+  color: #122d33;
+}
+.icon {
+  font-size: 5vh;
+}
+
+img {
+  border-radius: 5px;
+}
+
+h2 {
+  margin: 10px;
+}
+
+h3 {
+  margin: 10px;
+}
